@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Fundo do cabeçalho branco */
+    color: #000; /* Texto preto */
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #000; /* Texto preto no logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Links do menu em preto */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.section {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #fff; /* Títulos das seções em branco */
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.genres {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.genres button {
+    padding: 10px 20px;
+    background-color: #fff; /* Botões brancos */
+    color: #000; /* Texto preto nos botões */
+    border: none;
+    cursor: pointer;
+}
+
+.genres button:hover {
+    background-color: #e6e6e6; /* Botão ao passar o mouse - cinza claro */
+}
